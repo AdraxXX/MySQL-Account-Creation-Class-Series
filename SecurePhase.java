@@ -13,7 +13,7 @@ import java.util.Random;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
-class SecurePhase 
+class SecurePhrase 
 {
     private static final Random RANDOM = new SecureRandom(); //Creates a new secure random number
     private static final String SETVALUES = "0123456789!@#$%^&*()_+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"; //Values usedable in KEY variable
